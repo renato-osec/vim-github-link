@@ -44,3 +44,11 @@ repo = 'renato-osec/vim-github-link'
 ```
 Plug 'renato-osec/vim-github-link'
 ```
+
+# Remapping
+
+Can be remapped to grab a permalink for selected lines in visual mode like
+
+```vim
+vmap <silent> gh :<C-U>'<,'>GetCurrentCommitLink<CR>
+```
