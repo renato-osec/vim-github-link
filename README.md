@@ -29,18 +29,18 @@ In visual mode, same command after selected.
 add below line into .vimrc
 
 ```
-call dein#add('knsh14/vim-github-link')
+call dein#add('renato-osec/vim-github-link')
 ```
 
 or add to toml file
 
 ```
 [[plugins]]
-repo = 'knsh14/vim-github-link'
+repo = 'renato-osec/vim-github-link'
 ```
 
 ## vim-plug
 
 ```
-Plug 'knsh14/vim-github-link'
+Plug 'renato-osec/vim-github-link'
 ```
